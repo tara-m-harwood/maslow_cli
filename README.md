@@ -1,7 +1,5 @@
 <img src='./assets/header_graphic.png'>
 
-
-
 # by Tara Harwood, Full-Stack Software Development Student
 # Flatiron School @ Denver
 
@@ -11,5 +9,6 @@ At the same time, IRL and online communities are struggling to find ways to make
 
 Maslow's Bridge is a white-labelled webapp designed specifically for online communities that want to foster a culture of mutual aid and social support among their members -- bridging the distance between needs and resources within private affinity groups.
 
-Or ... you know, it could be that someday!  Right now it is just a sample Ruby project with no useful features and the interface of a 80's era BBS. Right now, the purpose of the project is to help me learn Ruby, and it is doing a great job at that!
+Or ... you know, it could be that someday!  Right now it is just a sample Ruby project with no useful features and the interface of a 80's era BBS. Right now, the purpose of the project is to help me learn Ruby, and it is doing a great job of that!
 
+<img src='./assets/maslow_erd.png'>
