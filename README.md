@@ -11,4 +11,6 @@ Maslow's Bridge is envisioned as a white-label webapp designed specifically for 
 
 That is the grand vision anyway!  Right now it is just a sample Ruby project with no useful features and the interface of a 80's era BBS!  For the moment, the real purpose of the project is to help me learn Ruby, and it is doing a great job of that!
 
+<img src='./assets/menu_screenshot_v1_01.png'>
+
 <img src='./assets/maslow_erd.png'>
