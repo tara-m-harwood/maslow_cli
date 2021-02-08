@@ -1,7 +1,7 @@
-<img src='./assets/header_graphic.png'>
+![colorful header and logo](/assets/header_graphic.png)
 
 # by Tara Harwood, Software Development Student
-# Flatiron School @ Denver
+## Flatiron School @ Denver
 
 We are living through the Time of the Great Distancing.  While the COVID-19 pandemic is causing untold suffering around the world, our need to stay socially distant has damaged our need to stay socially connected.  People need support like never before, yet have limited access to the resources available in "normal" times.
 
@@ -11,6 +11,6 @@ Maslow's Bridge is envisioned as a white-label webapp designed specifically for 
 
 That is the grand vision anyway!  Right now it is just a sample Ruby project with no useful features and the interface of a 80's era BBS!  For the moment, the real purpose of the project is to help me learn Ruby, and it is doing a great job of that!
 
-<img src='./assets/menu_screenshot_v1_01.png'>
+<img src='./assets/menu_screenshot_v1_01.png' width="750">
 
-<img src='./assets/maslow_erd.png'>
+![ERD](/assets/maslow_erd.png)
