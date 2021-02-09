@@ -24,7 +24,6 @@ class Member
         @status = "verified"
     end    
 
-
     # class methods -- 'self' here refers to the entire class -- method defs always start with 'self', but use the 'all' array in the method code
 
     def self.all

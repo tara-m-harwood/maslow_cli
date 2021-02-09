@@ -10,5 +10,5 @@ require_relative './lib/comment.rb'
 runner
 
 
-binding.pry
-0
+#binding.pry
+#0

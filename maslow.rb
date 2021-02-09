@@ -27,6 +27,7 @@ def display_menu #prob better to have a menu class to take care of menu ops?  co
     puts "4. Create a new post"
     puts "5. List all posts"
     puts "6. List all posts with comments"
+    puts "7. Create a new comment"
     puts "Type exit to quit"
 end
 
@@ -34,6 +35,11 @@ end
 
 def prompt_member #displays the prompt and gets the input
     puts "Enter the name of the member"
+    gets.strip
+end
+
+def prompt_post #displays the prompt and gets the input
+    puts "Enter the name of the post"
     gets.strip
 end
 
@@ -78,6 +84,27 @@ def display_posts_with_comments  # can I be forgived for these eaches?  Or is th
     end 
 end
 
+## comment methods
+
+def make_comment  #
+    member = Member.find_member_by_name(prompt_member) #asks for a member name, then check if the member exists
+    if !member
+        member = Member.find_post_by_title title
+    else
+        puts "Member found"
+        post = Post.find_post_by_title(prompt_post)
+        if !post
+            puts "Sorry I can't find a post with that title"
+        else    
+            puts "Post found"
+            content = (print 'Enter your comment: '; gets.rstrip)  
+            new_comment = Comment.new member, post, content
+            new_comment.output
+        end    
+    end     
+end
+
+
 ## runner
 
 def runner # maybe write a menu class and a menu handler, bc this is going to get old fast!
@@ -99,10 +126,13 @@ def runner # maybe write a menu class and a menu handler, bc this is going to ge
     when '5'
         Post.output_all
     when '6'
-        display_posts_with_comments                      
+        display_posts_with_comments
+    when '7'
+        make_comment                             
     when ! 'exit'
         puts "*** try again! ***"        
     end
   end
   puts 'Goodbye!'
 end 
+

@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, Fira Code",
+		"terminal.integrated.shell.linux": "",
+		"terminal.integrated.shell.osx": "~"
+	}
+}
