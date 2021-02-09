@@ -1,0 +1,40 @@
+body {
+    font-family: 'Lexend Mega', sans-serif;
+    color: #8287EE;
+    background-color: #D0F0FF;
+  }
+
+  #header {
+    width: 1710px;
+    /* border: 15px solid green; */
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #head_branding {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  #head_branding h1{
+    margin-bottom: 0px;
+  }
+  #head_branding h3{
+    margin-top: 0px;
+  }
+
+
+
+  /* #head_navbar {
+    float: right;
+  } */
+
+  /* #main_image {
+    float: right;
+  } */
+
+  ul > li {
+    display: inline-block;
+}
