@@ -1,40 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
 body {
-    font-family: 'Lexend Mega', sans-serif;
-    color: #8287EE;
-    background-color: #D0F0FF;
+    /* font-family: 'Lexend Mega', sans-serif; */
+    font-family: 'Bebas Neue', cursive;
+    color: #007ef5;
+    background-color: #FEE17B;
+    width: 1400px;
+    margin-left: 15px;
   }
 
   #header {
-    width: 1710px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     /* border: 15px solid green; */
-    padding: 10px;
-    margin: 10px;
-  }
-
-  #head_branding {
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
   }
 
   #head_branding h1{
-    margin-bottom: 0px;
+    font-size: 72px;
+    padding: 0px;
   }
+
   #head_branding h3{
-    margin-top: 0px;
+    color: #d44c65;
+    font-size: 38px;    
+  }
+  
+  #head_navbar ul {
+    display: inline-flex;
+    gap: 10px;
+    list-style: none;
+  }
+
+  #head_navbar li {
+    font-size: 38px;
+  }
+
+  #main_image {
+    padding: 10px;
+  }
+
+  #image_container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #main_image {
   }
 
 
 
-  /* #head_navbar {
-    float: right;
-  } */
 
-  /* #main_image {
-    float: right;
-  } */
-
-  ul > li {
-    display: inline-block;
-}
