@@ -5,12 +5,13 @@
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
-  max-width: 1710px;
+  max-width: 1000px;
   background: transparent;
 }
 
 body {
-    /* font-family: 'Lexend Mega', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lexend Mega', sans-serif;
     font-family: 'Bebas Neue', cursive;
     color: #0468EE;
     background-color: #FEE17B;
@@ -21,12 +22,10 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #FFB800;
-    /* border: 15px solid green; */
   }
 
   #head_branding {
-    margin-left: 15px;
-    padding-bottom: 15px; 
+    margin: 15px;
   }
 
   #head_branding h1{
@@ -35,7 +34,7 @@ body {
   }
 
   #head_branding h3{
-    color: #551B8B;
+    color: #4C805F;
     font-size: 38px;    
   }
   
@@ -46,8 +45,9 @@ body {
     list-style: none;
   }
 
-  #head_navbar li {
-    font-size: 38px;
+  #head_navbar li a {
+    font-size: 32px;
+    color: #A92746;
   }
 
   #image_container {
@@ -57,11 +57,50 @@ body {
 
   #main_image {
     padding-top: 25px;
-    padding-right: 250px;
+    padding-bottom: 25px;
+    padding-right: 55px;
   }
 
   #article_container {
+    display: flex;
+    justify-content: space-around;
     margin-left: 15px;
+    font-size: 38px; 
+  }
+
+  .article_title {
+    color: #326a47;
+    font-size: 36px;
+  }
+
+  .article {
+    font-size: 28px;
+    width: 300px;
+  }
+
+  .article_flow {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+  }
+
+  .article_icon {
+    float: left;
+    border-radius: 20px;
+    border-color: #A92746;
+    padding: 5px
+
+  }
+
+  #read_more_container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #read_more_container p {
+    color: #A92746;
+    font-size: 28px;
+    padding: 5px;
+    margin-left: auto;
   }
 
   #footer {
@@ -70,6 +109,7 @@ body {
     padding: 10px;
     background-color: #FFB800;   
   }
+
 
 
 
