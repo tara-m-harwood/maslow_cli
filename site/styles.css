@@ -5,23 +5,28 @@
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
+  max-width: 1710px;
   background: transparent;
 }
 
 body {
     /* font-family: 'Lexend Mega', sans-serif; */
     font-family: 'Bebas Neue', cursive;
-    color: #007ef5;
+    color: #0468EE;
     background-color: #FEE17B;
-    width: 1400px;
-    margin-left: 15px;
   }
 
   #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFB800;
     /* border: 15px solid green; */
+  }
+
+  #head_branding {
+    margin-left: 15px;
+    padding-bottom: 15px; 
   }
 
   #head_branding h1{
@@ -30,12 +35,13 @@ body {
   }
 
   #head_branding h3{
-    color: #d44c65;
+    color: #551B8B;
     font-size: 38px;    
   }
   
   #head_navbar ul {
     display: inline-flex;
+    justify-content: right;
     gap: 10px;
     list-style: none;
   }
@@ -44,16 +50,25 @@ body {
     font-size: 38px;
   }
 
-  #main_image {
-    padding: 10px;
-  }
-
   #image_container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   #main_image {
+    padding-top: 25px;
+    padding-right: 250px;
+  }
+
+  #article_container {
+    margin-left: 15px;
+  }
+
+  #footer {
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FFB800;   
   }
 
 
