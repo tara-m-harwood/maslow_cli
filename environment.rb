@@ -8,22 +8,6 @@ require_relative './lib/comment.rb'
 
 require 'sqlite3'
 
-begin
-
-db = SQLite3::Database.open "maslow.db"
-db.execute "INSERT INTO Members VALUES ('Echo')"
-db.execute "INSERT INTO Members VALUES ('Foxtrot')"
-db.execute "INSERT INTO Members VALUES ('Golf')"
-db.execute "INSERT INTO Members VALUES ('Hotel')"
-
-rescue SQLite3::Exception => e 
-    
-    puts "Exception occurred"
-    puts e
-    
-ensure
-    db.close if db
-end
 
 ### execute
 

@@ -1,3 +1,4 @@
+
 require_relative 'environment.rb'
 
 def build_seeds  #temporary while testing
@@ -135,4 +136,3 @@ def runner # maybe write a menu class and a menu handler, bc this is going to ge
   end
   puts 'Goodbye!'
 end 
-
